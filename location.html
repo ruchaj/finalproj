@@ -13,19 +13,19 @@
     <div id="map"></div>
     <script>
       function initMap() {
-        var london = {lat: 51.5074, lng: 0.1278};
+        var san jose = {lat: 37.3382, lng: 121.8863};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
-          center: london
+          center: san jose
         });
         var marker = new google.maps.Marker({
-          position: london,
+          position: san jose,
           map: map
         });
       }
     </script>
     <script async defer
-    src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyBs4PuOt-XOe5NS9uLtkgMCvFoVudFjX4Y&callback=initMap">
+    src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyBs4PuOt-XOe5NS9uLtkgMCvFoVudFjX4Ycallback=initMap">
     </script>
   </body>
 </html>
