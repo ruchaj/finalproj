@@ -15,16 +15,17 @@
     <p>.</p>
      <p>.</p>
       <p>.</p>
-    
+<form>
   <button class="emailReplyButton" onClick="sendEmail(message)">Reply</button>
+    <a href="mailto:foodgrovebiz@gmail.com"><img src="ICON2.png"></a>
 
-sendEmail(message) {
+  sendEmail(message) {
     var email = message.emailId;
     var subject = message.subject;
     var emailBody = 'Hi '+message.from;
     document.location = "mailto:"foodgrovebiz@gmail.com"?subject="+subject+"&body="+emailBody;
 }
-<a href="mailto:demo@demo.com"><img src="ICON2.png"></a>
+<a href="mailto:foodgrovebiz@gmail.com"><img src="ICON2.png"></a>
 </form>
   
   <p>.</p>
