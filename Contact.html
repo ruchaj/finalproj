@@ -16,6 +16,10 @@
     
 <h2>Send e-mail to foodgrovebiz@gmail.com:</h2>
 <element type="button" id="bttnEmail" height="14" width="13" onclick="myscript()" />
+    function myscript() {
+    window.location = "mailto:?body=Your content&subject=Mail Subject";
+}
+
 <form action="mailto:foodgrovebiz@gmail.com" method="post" enctype="text/plain">
 Name:<br>
 <input type="text" name="name"><br>
