@@ -16,16 +16,7 @@
      <p>.</p>
       <p>.</p>
 <form>
-  <button class="emailReplyButton" onClick="sendEmail(message)">Reply</button>
-    <a href="mailto:foodgrovebiz@gmail.com"><img src="ICON2.png"></a>
-
-  sendEmail(message) {
-    var email = message.emailId;
-    var subject = message.subject;
-    var emailBody = 'Hi '+message.from;
-    document.location = "mailto:"foodgrovebiz@gmail.com"?subject="+subject+"&body="+emailBody;
-}
-<a href="mailto:foodgrovebiz@gmail.com"><img src="ICON2.png"></a>
+  location.href = "mailto:"+emailTo+'?cc='+emailCC+'&subject='+emailSub+'&body='+emailBody;
 </form>
   
   <p>.</p>
